@@ -5,8 +5,21 @@ import java.util.logging.Logger;
 
 public class Refacciones {
 
+	public Refacciones(String cliente)
+	{
+		this.cliente=cliente;
+	}
 	private String nombrerefaccion;
+	private String cliente;
 	
+	public String getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
+	}
+
 	public String getNombrerefaccion() {
 		return nombrerefaccion;
 	}
@@ -15,7 +28,7 @@ public class Refacciones {
 		this.nombrerefaccion = nombrerefaccion;
 	}
 
-	private static Logger LOG = Logger.getLogger(Chef.class.getName());
+	private static Logger LOG = Logger.getLogger(Refacciones.class.getName());
 	String[][] refaccion = { { "1", "balatas", "$600" }, 
 							 { "2", "Aceite", "$1000" }, 
 							 { "3", "bandas", "$300" },
