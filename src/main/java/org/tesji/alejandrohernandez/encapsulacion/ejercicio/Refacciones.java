@@ -3,8 +3,6 @@ package org.tesji.alejandrohernandez.encapsulacion.ejercicio;
 
 import java.util.logging.Logger;
 
-import org.tesji.eduardocastillo.encapsulacion.ejercicio.Chef;
-
 public class Refacciones {
 
 	private String nombrerefaccion;
