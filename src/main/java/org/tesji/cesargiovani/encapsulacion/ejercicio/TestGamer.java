@@ -6,6 +6,8 @@ public class TestGamer {
 		game.setNombre("Cesar");
 		game.setJuego("Yirs of war 4");
 		game.jugar(false);
+		
+		
 	}
 
 }
